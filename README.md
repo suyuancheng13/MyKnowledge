@@ -46,7 +46,7 @@
 
 + nginx
 + mockserver 模拟接口返回
-+ 抓包--Tcpdump + wireshark
++ 抓包--Tcpdump + wireshark     
 linux开发中网络连接是非常重要的一部分，特别是与其它服务器交互时，为了证明是哪方服务器的问题最常用的方法不是抓包：
   - 通过Tcpdump `tcpdump -Xnlps0 -i any tcp and port 10040 -w tcp.cap`
   - 将上一步的抓包文件用wireshark打开，可以跟踪每一请求的上下流一个完整的过程，也可以将发送/接收包的内容解开
